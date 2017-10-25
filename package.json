@@ -5,6 +5,7 @@
   "main": "app.js",
   "homepage": "https://github.com/MoudGW/Constructor_Hangman#readme",
   "dependencies": {
+    "chalk": "^2.3.0",
     "inquirer": "^3.3.0"
   },
   "devDependencies": {},

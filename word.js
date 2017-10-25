@@ -1,4 +1,5 @@
 // table of city names 
+var chalk = require('chalk');
 var  table_words=['barcelona','washington','paris','delhi','khartoum'];
 // function to generate a random name 
 function random()
@@ -32,11 +33,11 @@ this.check=function(lettertocheck){
   	  if(this.word_[i].letter===lettertocheck && this.word_[i].guessedletter==false)
   	  {
        this.word_[i].guessedletter=true;
-       checkresult='correct';
+       checkresult=chalk.green('correct');
        break;
   	  }else
   	  {
-  	  	checkresult='incorrect';
+  	  	checkresult=chalk.red('incorrect');
   	  }
   }
   console.log(checkresult);
