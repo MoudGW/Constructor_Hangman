@@ -3,10 +3,9 @@
   "version": "1.0.0",
   "description": "homework",
   "main": "app.js",
+  "homepage": "https://github.com/MoudGW/Constructor_Hangman#readme",
   "dependencies": {
-    "inquirer": "^3.3.0",
-    "prompt": "^1.0.0",
-    "require": "^2.4.20"
+    "inquirer": "^3.3.0"
   },
   "devDependencies": {},
   "scripts": {
