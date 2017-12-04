@@ -12,7 +12,7 @@ var game=function(){
 // initiate the game
 var guessremain=10;
 // generate a random word
-var wordtoguess=myimports.random();
+var wordtoguess=myimports.Random();
 var word_=new Word(wordtoguess);
 // init the word _
 word_.init();
