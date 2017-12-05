@@ -9,14 +9,14 @@ this.random_word=table_words[Math.floor(Math.random()*table_words.length-1)];
 return this.random_word;
 }
 // function constructor for words 	
-function word(word)
+function word(Word)
 {
-this.word=word;
+this.Word=Word;
 this.word_=[];
 // a method to initiat the word with _
 this.init=function(){
-for (var i = 0; i<this.word.length; i++) {
-	this.word_.push(new letters(this.word[i]));
+for (var i = 0; i<this.Word.length; i++) {
+	this.word_.push(new letters(this.Word[i]));
 }
 }
 // to display the word as a string
