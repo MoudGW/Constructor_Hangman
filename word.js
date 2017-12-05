@@ -2,7 +2,8 @@
 var chalk = require('chalk');
 var  table_words=['barcelona','washington','paris','delhi','khartoum'];
 // function to generate a random name 
-function Random()
+
+function random()
 {
 this.random_word=table_words[Math.floor(Math.random()*table_words.length-1)];
 return this.random_word;
@@ -70,4 +71,4 @@ this.display= function() {
 }
 }
 // export those three constructo functions
-module.exports={word,letters,Random};
+module.exports={random,word,letters};
